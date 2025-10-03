@@ -1,0 +1,35 @@
+Coding/GitHub Challenge – Week 2 
+Problem Title: Number Spiral Pattern 
+Problem Statement 
+You are asked to generate a spiral pattern of numbers for a given size n. 
+ The spiral starts with 1 in the top-left corner and fills numbers in a clockwise 
+direction until reaching n × n. 
+Example 
+For n = 3 
+1 2 3 
+8 9 4 
+7 6 5 
+For n = 4 
+1   2   3   4 
+12  13  14  5 
+11  16  15  6 
+10   9   8  7 
+Task Requirements 
+1. Write a Python program that: 
+o Takes an integer n as input. 
+o Generates and prints the spiral matrix of size n × n. 
+2. Ensure your code works for any n ≥ 2. 
+Extra Challenge  
+ Format the output so numbers align neatly in columns (use spacing). 
+ Allow the user to choose clockwise or counter-clockwise spiral filling. 
+Input Format 
+ An integer n (size of the matrix). 
+Output Format 
+ An n × n spiral matrix printed line by line. 
+Sample Test Case 
+Input: 
+3 
+Output: 
+1 2 3 
+8 9 4 
+7 6 5
