@@ -1,0 +1,28 @@
+ Coding/GitHub Challenge – Week 3
+ Problem Title: The Balanced Brackets Checker
+ A string of brackets is considered balanced if: - Every opening bracket has a matching closing
+ bracket of the same type. - Brackets are closed in the correct order. Brackets include: - Round: () 
+Square: [] - Curly: {} You need to write a program that checks whether a given string of brackets is
+ balanced or not.
+ Examples:
+ Input: {[()]}
+ Output: Balanced
+ Input: {[(])}
+ Output: Not Balanced
+ Input: ((()))
+ Output: Balanced
+ Task Requirements:
+ 1. Take a string of brackets as input.
+ 2. Use a stack-based approach to check if it is balanced.
+ 3. Print Balanced or Not Balanced.
+ Extra Challenge (Bonus Marks):- Allow the string to contain letters/numbers along with brackets, and only validate the brackets.
+ Example: a+(b*c)-{d/e} → Balanced.- Write your own stack implementation (using list or class) instead of using built-in shortcuts.
+ Input Format:- A single string containing brackets (and optionally other characters).
+ Output Format:- Balanced or Not Balanced
+ Sample Test Cases:
+ Test Case 1:
+ Input: [()]{}{[()()]()}
+ Output: Balanced
+ Test Case 2:
+ Input: [(])
+ Output: Not Balance
